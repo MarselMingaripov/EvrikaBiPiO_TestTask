@@ -1,0 +1,1 @@
+wmic useraccount get name > C:\node\helloapp\list.txt & powershell /nologo /noprofile /command "get-content -encoding string 'list.txt'|out-file -encoding utf8 'file.txt'" & start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" http://127.0.0.1:3000/ & cd C:\node\helloapp & node hello.js

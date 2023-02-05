@@ -1,0 +1,6 @@
+﻿Name                        
+DefaultAccount              
+User                        
+WDAGUtilityAccount          
+Администратор  
+Гость                  
